@@ -1,17 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import FamilyMedicineView from "./pages/FamilyMedicineView";
-import "./styles/index.css";
+import React from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import GPview from './pages/GPview';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        {/* Set Family Medicine View to render at /GPview */}
-        <Route path="/GPview" element={<FamilyMedicineView />} />
-        
-        {/* Additional routes for other views can be added here, e.g., /specialist, /patient */}
-      </Routes>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/GPview" component={GPview} />
+      </Switch>
     </Router>
   );
 }
