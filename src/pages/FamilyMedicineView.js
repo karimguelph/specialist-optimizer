@@ -5,6 +5,9 @@ import FileUpload from "../components/GPview/FileUpload";
 import PatientForm from "../components/GPview/PatientForm";
 import "../styles/FamilyMedicineView.css";
 
+console.log("FamilyMedicineView Loaded");
+
+
 const FamilyMedicineView = () => {
   const [selectedSpecialist, setSelectedSpecialist] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
