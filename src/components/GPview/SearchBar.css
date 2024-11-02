@@ -1,0 +1,138 @@
+/* Background and overall styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, #f5f5f5, #e1e1e1);
+}
+
+.search-bar {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+/* Header styling */
+.search-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-title {
+  font-size: 2.5rem;
+  color: #002e62; /* Deep Canadian blue */
+}
+
+.search-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+/* Input container and elements */
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 70%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  border: 2px solid #d3d3d3;
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  border-color: #d32f2f; /* Canadian red accent */
+  outline: none;
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #d32f2f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.search-button:hover {
+  background-color: #c62828;
+}
+
+.search-button span {
+  margin-left: 8px;
+}
+
+/* Results styling */
+.search-results {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.specialist-card {
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.specialist-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.specialist-info {
+  margin-bottom: 10px;
+}
+
+.specialist-name {
+  font-size: 1.3rem;
+  color: #002e62;
+}
+
+.specialist-detail {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.book-button {
+  background-color: #004ba0; /* Deep blue for booking */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.3s;
+}
+
+.book-button:hover {
+  background-color: #003f7f;
+}
+
+/* Icon styling */
+.book-button svg,
+.search-button svg {
+  font-size: 1.2rem;
+}

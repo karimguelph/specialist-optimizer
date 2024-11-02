@@ -1,0 +1,121 @@
+/* Container styling */
+.booking-calendar-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .calendar-header {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-title {
+    font-size: 1.8rem;
+    color: #002e62;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .calendar-icon {
+    color: #d32f2f;
+    font-size: 1.5rem;
+  }
+  
+  .calendar-subtitle {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* Calendar styling */
+  .react-calendar {
+    border: none;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .react-calendar__navigation button {
+    color: #003f7f;
+    font-weight: bold;
+  }
+  
+  .react-calendar__tile {
+    padding: 15px 10px;
+    font-size: 1rem;
+    transition: all 0.3s;
+    border-radius: 10px;
+  }
+  
+  .react-calendar__tile:enabled:hover {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .react-calendar__tile--available {
+    background-color: #e3f2fd;
+    color: #002e62;
+  }
+  
+  .react-calendar__tile--unavailable {
+    color: #d3d3d3;
+    position: relative;
+  }
+  
+  /* Tooltip styling */
+  .tooltip {
+    background-color: #d32f2f;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s;
+  }
+  
+  .react-calendar__tile--unavailable:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Selected date information */
+  .selected-date-info {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .confirm-date-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #002e62;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .confirm-date-btn:hover {
+    background-color: #003f7f;
+  }
+  
