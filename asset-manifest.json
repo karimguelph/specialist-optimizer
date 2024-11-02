@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/specialist-optimizer/static/css/main.40350ca5.css",
-    "main.js": "/specialist-optimizer/static/js/main.0ab68b95.js",
+    "main.css": "/specialist-optimizer/static/css/main.b17d0476.css",
+    "main.js": "/specialist-optimizer/static/js/main.02bcd5cb.js",
     "static/js/453.c365a96a.chunk.js": "/specialist-optimizer/static/js/453.c365a96a.chunk.js",
     "static/media/fa-solid-900.ttf": "/specialist-optimizer/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/specialist-optimizer/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/specialist-optimizer/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/specialist-optimizer/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/specialist-optimizer/index.html",
-    "main.40350ca5.css.map": "/specialist-optimizer/static/css/main.40350ca5.css.map",
-    "main.0ab68b95.js.map": "/specialist-optimizer/static/js/main.0ab68b95.js.map",
+    "main.b17d0476.css.map": "/specialist-optimizer/static/css/main.b17d0476.css.map",
+    "main.02bcd5cb.js.map": "/specialist-optimizer/static/js/main.02bcd5cb.js.map",
     "453.c365a96a.chunk.js.map": "/specialist-optimizer/static/js/453.c365a96a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40350ca5.css",
-    "static/js/main.0ab68b95.js"
+    "static/css/main.b17d0476.css",
+    "static/js/main.02bcd5cb.js"
   ]
 }
